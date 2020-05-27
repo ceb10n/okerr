@@ -4,7 +4,7 @@ readme = open('README.rst').read()
 
 setup(
     name='okerr',
-    version='0.1.0',
+    version='0.1.1',
     description='A simple Result with match functionality for Python',
     author='Rafael Marques',
     author_email='rafaelomarques@gmail.com',
