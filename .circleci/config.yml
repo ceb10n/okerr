@@ -15,6 +15,7 @@ jobs:
           command: |
             sudo pip install pytest
             pytest tests/
+            bash <(curl -s https://codecov.io/bash)
           name: Test
 
 workflows:
