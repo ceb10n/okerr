@@ -4,6 +4,12 @@ okerr
 .. image:: https://badge.fury.io/py/okerr.svg
     :target: https://badge.fury.io/py/okerr
 
+.. image:: https://img.shields.io/pypi/pyversions/okerr.svg
+    :target: https://badge.fury.io/py/okerr
+
+.. image:: https://img.shields.io/pypi/pyversions/okerr   :alt: PyPI - Python Version
+    :target: https://img.shields.io/pypi/pyversions/okerr
+
 .. image:: https://circleci.com/gh/ceb10n/okerr.svg?style=shield
     :target: https://circleci.com/gh/ceb10n/okerr
 
