@@ -12,7 +12,9 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: pytest tests/
+          command: |
+            sudo pip install pytest
+            pytest tests/
           name: Test
 
 workflows:
