@@ -14,7 +14,9 @@ jobs:
       - run:
           command: |
             sudo pip install pytest
+            pip install codecov
             pytest tests/
+            codecov
             bash <(curl -s https://codecov.io/bash)
           name: Test
 
