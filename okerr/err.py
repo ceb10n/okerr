@@ -37,7 +37,7 @@ class Err(Result):
         return self._value == other
 
     def expect(self, message: str) -> Any:
-        raise Exception(message)
+        raise UnwrapErr(message)
 
     def is_err(self) -> bool:
         return True
