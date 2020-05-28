@@ -1,8 +1,13 @@
 [tool.poetry]
 name = "okerr"
-version = "0.1.2"
+version = "0.1.3"
+license = "MIT"
 description = "A simple Result with match functionality for Python"
 authors = ["Rafael Marques <rafaelomarques@gmail.com>"]
+maintainers = ["Rafael Marques <rafaelomarques@gmail.com>"]
+readme = "README.rst"
+repository = "https://github.com/ceb10n/okerr"
+keywords = ["result", "utility-tool", "rust"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
